@@ -1,0 +1,80 @@
+/* Common Css Start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/* Common Css End */
+body{
+
+  background: rgb(110, 173, 160);
+  height: 100vh;
+  
+
+}
+#qr_code{
+
+  width: 300px;
+  background: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  
+  
+}
+#qr_code h1{
+
+  font-size: 25px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+
+}
+#qr_code input{
+
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px ;
+  border: 2px solid rgb(31, 28, 28);
+  border-radius: 5px;
+  font-size: 15px;
+  
+}
+#qr_code button{
+
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%; 
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000000;
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
